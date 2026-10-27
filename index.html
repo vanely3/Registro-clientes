@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de clientes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 id="titulo">Registro de clientes</h1>
+      <h1 class="subtitulo">Formulario</h1>
+      <form id="formulario">
+        <input
+          id="nombre"
+          type="text"
+          placeholder="Nombre del cliente"
+          required
+        />
+        <input id="telefono" type="tel" placeholder="Teléfono (opcional)" />
+        <button id="boton" type="button">Guardar cliente</button>
+      </form>
+
+      <p id="mensaje" role="status"></p>
+
+      <h2>Clientes registrados</h2>
+      <ul id="lista"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

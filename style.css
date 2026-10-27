@@ -1,0 +1,62 @@
+ body {
+        font-family: Arial, sans-serif;
+        background: #050363;
+        margin: 0;
+        padding: 30px;
+      }
+
+      main {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+      }
+
+
+      #titulo {
+        color: rgb(28, 3, 129);
+        text-align: center;
+      }
+
+      h1.subtitulo {
+        color: #0c3ccd;
+        text-align: center;
+      
+      }
+
+
+
+      input,
+      button {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        font-size: 16px;
+      }
+
+      button {
+        background: #03134f;
+        color: white;
+        border: 0;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        overflow-wrap: anywhere;
+      }
+
+      .eliminar {
+        width: auto;
+        margin-left: 10px;
+        padding: 6px 10px;
+        background: #a33;
+      }
+
+      #mensaje {
+        overflow-wrap: anywhere;
+      }
